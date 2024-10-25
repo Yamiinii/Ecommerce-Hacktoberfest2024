@@ -80,5 +80,14 @@ body {
 .back-to-home-button a {
     text-decoration: none;
     color: #333;
+    padding: 10px 15px; /* Add padding for better click area */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effects */
+}
+
+.back-to-home-button a:hover {
+    background-color: #6bf0d1; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
 }
 
